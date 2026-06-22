@@ -1,0 +1,112 @@
+{
+  "contactBar": {
+    "contactItems": [
+      {
+        "type": "email",
+        "label": "arminloveslinux@gmail.com",
+        "icon": "/images/icon/mail-icon.svg",
+        "link": "mailto:arminloveslinux@gmail.com"
+      },
+      {
+        "type": "phone",
+        "label": "+98 998 124 8106",
+        "icon": "/images/icon/call-icon.svg",
+        "link": "tel:+989981248106"
+      },
+      {
+        "type": "website",
+        "label": "FloppyDisk",
+        "icon": "/images/icon/web-icon.svg",
+        "link": "https://floppydisk.vercel.app"
+      }
+    ],
+    "socialItems": [
+      {
+        "platform": "github",
+        "icon": "/images/icon/github.svg",
+        "link": "https://github.com/0xDeviI"
+      },
+      {
+        "platform": "instagram",
+        "icon": "/images/icon/ig.svg",
+        "link": "https://instagram.com/aatkgb"
+      },
+      {
+        "platform": "telegram",
+        "icon": "/images/icon/tg.svg",
+        "link": "https://t.me/aatkgb"
+      }
+    ]
+  },
+  "educationData": {
+    "education": [
+      {
+        "title": "University of Birjand - 2023",
+        "description": "Bachelor's degree in English Language and Literature"
+      }
+    ],
+    "skills": [
+      {
+        "name": "Laravel",
+        "icon": "/images/icon/laravel-plain.svg"
+      },
+      {
+        "name": "React",
+        "icon": "/images/icon/react-original.svg"
+      },
+      {
+        "name": "Android Development",
+        "icon": "/images/icon/androidstudio-original.svg"
+      },
+      {
+        "name": "Linux",
+        "icon": "/images/icon/linux-original.svg"
+      },
+      {
+        "name": "Git",
+        "icon": "/images/icon/git-plain.svg"
+      },
+      {
+        "name": "Python",
+        "icon": "/images/icon/python-original.svg"
+      }
+    ],
+    "certifications": [
+      {
+        "title": "Android MVVM Architecture Course - 2021",
+        "description": "Certification for completing a course on Android MVVM architecture.",
+        "image": "/images/home/certs/mvvm.png"
+      },
+      {
+        "title": "Laravel Framework Course - 2022",
+        "description": "Certification for completing a full course on the Laravel PHP framework.",
+        "image": "/images/home/certs/laravel.png"
+      },
+      {
+        "title": "Bronze Medal on Worldskill's MAD - 2023",
+        "description": "Bronze medal and certificates for 3d place in IranSkill's Mobile Application Development competitions.",
+        "image": "/images/home/certs/android-ws.jpg"
+      }
+    ]
+  },
+  "courses": [
+    {
+      "title": "HTTP In Action - 2024",
+      "image": "/images/home/courses/http.png",
+      "description": "Explaining what HTTP is and trying to implement one in C",
+      "url": "https://www.youtube.com/watch?v=2nZKYClgRrU&list=PL0EfpfhHjpeMN3AdEpH9NiD0RbcTK2LlU&pp=sAgC"
+    },
+    {
+      "title": "Docker For Developers - 2025",
+      "image": "/images/home/courses/dfd.png",
+      "description": "Introducing docker and microservices architecture for developers who never tried it before",
+      "url": "https://www.youtube.com/watch?v=HLyVCg1vIYk&list=PL0EfpfhHjpeP8oG9Dp3V5JAPWlNLDCWg4&pp=0gcJCeECOCosWNinsAgC"
+    },
+    {
+      "title": "Linux Migration Guideline - 2025",
+      "image": "/images/home/courses/linux.png",
+      "description": "It's not LPIC, it's a roadmap for those who've heard of Linux, but never knew how to actually try it and what to do after that",
+      "url": "https://www.youtube.com/watch?v=tsZfc1gt_aU&list=PL0EfpfhHjpePr4HPQx3Ugz6Y_SPnpGqvQ&pp=sAgC"
+    }
+  ]
+}
