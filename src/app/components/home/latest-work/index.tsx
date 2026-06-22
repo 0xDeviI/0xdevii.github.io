@@ -48,7 +48,8 @@ const LatestWork = () => {
                       />
                       <Link
                         onClick={(e) => e.preventDefault()}
-                        href={"#!"}
+                        href={``}
+                        // href={`/project?id=${value.id}`}
                         className="absolute top-0 left-0 backdrop-blur-xs bg-primary/15 w-full h-full hidden group-hover:flex rounded-lg"
                       >
                         <span className="flex justify-center items-center p-5 w-full">
@@ -79,10 +80,16 @@ const LatestWork = () => {
                     </div>
                     <div className="flex flex-col gap-0 xl:gap-2">
                       <div className="flex items-center justify-between">
-                        <Link href={`/project?id=${value.id || index}`}>
+                        <Link 
+                        href={''}
+                        // href={`/project?id=${value.id || index}`}
+                        >
                           <h5>{value?.title}</h5>
                         </Link>
-                        <Link href={`/project?id=${value.id || index}`}>
+                        <Link 
+                        href={``}
+                        // href={`/project?id=${value.id || index}`}
+                        >
                           <Image
                             src={getImgPath("/images/icon/right-arrow-icon.svg")}
                             alt="right-arrow-icon"

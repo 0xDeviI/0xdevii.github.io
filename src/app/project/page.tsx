@@ -1,5 +1,5 @@
 "use client";
-import { getImgPath } from "@/utils/image";
+import { getImgPath, getDataPath } from "@/utils/image";
 import Image from "next/image";
 import { useEffect, useState } from "react";
 import { useSearchParams } from "next/navigation";
@@ -35,67 +35,48 @@ const ProjectContent = () => {
   const projectId = searchParams.get("id") || "1";
 
   useEffect(() => {
-    // Mock project data - replace with actual data fetching
-    const mockProject: Project = {
-      id: projectId,
-      name: "GeekHub Educational Platform",
-      featuredImage: "/images/courses/linux.jpg",
-      gallery: [
-        { src: "/images/work/geekub-1.jpg", alt: "GeekHub Dashboard" },
-        { src: "/images/work/geekub-2.jpg", alt: "GeekHub Course View" },
-        { src: "/images/work/geekub-3.jpg", alt: "GeekHub Player" },
-      ],
-      skills: ["React", "TypeScript", "Next.js", "Node.js", "MongoDB", "Docker", "AWS"],
-      blocks: [
-        {
-          type: "header",
-          content: "Project Overview",
-          level: 2,
-        },
-        {
-          type: "paragraph",
-          content:
-            "GeekHub is a comprehensive educational platform designed to provide high-quality programming courses and resources. The project was built as a full-stack solution with multiple panels for different user roles including students, instructors, and administrators.",
-        },
-        {
-          type: "header",
-          content: "Key Features",
-          level: 2,
-        },
-        {
-          type: "paragraph",
-          content:
-            "The platform includes a custom video player with end-to-end encryption, an admin panel for content management, an instructor panel for course creation and management, and a comprehensive student panel with progress tracking and interactive learning tools.",
-        },
-        {
-          type: "image",
-          src: "/images/work/geekub-feature.jpg",
-          alt: "GeekHub Features",
-        },
-        {
-          type: "header",
-          content: "Technical Implementation",
-          level: 2,
-        },
-        {
-          type: "paragraph",
-          content:
-            "The project was implemented using multiple technologies and languages to ensure optimal performance and scalability. The backend was built with Node.js and Express, while the frontend utilized React and Next.js for server-side rendering and improved performance.",
-        },
-        {
-          type: "header",
-          content: "Challenges & Solutions",
-          level: 2,
-        },
-        {
-          type: "paragraph",
-          content:
-            "One of the main challenges was implementing a secure video player with end-to-end encryption while maintaining smooth playback. This was solved by implementing a custom player that uses AES-256 encryption for video content and JWT tokens for access control.",
-        },
-      ],
+    const fetchProject = async () => {
+      try {
+        const res = await fetch("/data/work-data.json");
+        if (!res.ok) throw new Error("Failed to fetch work data");
+        const json = await res.json();
+        const items: any[] = json?.workData || [];
+
+        // Try to find by slug first
+        let item = items.find((it) => it.slug === projectId);
+
+        // If not found and projectId is a number, use it as 1-based index
+        if (!item) {
+          const idx = parseInt(projectId, 10);
+          if (!Number.isNaN(idx) && idx > 0 && idx <= items.length) {
+            item = items[idx - 1];
+          }
+        }
+
+        // Fallback to first item
+        if (!item && items.length > 0) item = items[0];
+
+        if (item) {
+          const built: Project = {
+            id: item.slug || String(item.title),
+            name: item.title,
+            featuredImage: item.image,
+            gallery: item.gallery || [{ src: item.image, alt: item.title }],
+            skills: item.skills || [],
+            blocks: item.blocks,
+          };
+
+          setProject(built);
+        } else {
+          setProject(null);
+        }
+      } catch (error) {
+        console.error(error);
+        setProject(null);
+      }
     };
 
-    setProject(mockProject);
+    fetchProject();
   }, [projectId]);
 
   const nextGalleryImage = () => {
@@ -127,7 +108,7 @@ const ProjectContent = () => {
             {project.name}
           </h1>
           <div className="flex items-center gap-2">
-          <div className="relative aspect-video md:aspect-auto md:h-96 lg:h-[500px] w-full overflow-hidden rounded-lg">
+          <div className="relative aspect-video md:aspect-auto md:h-96 lg:h-[1024px] w-full overflow-hidden rounded-lg">
             <Image
               src={getImgPath(project.featuredImage)}
               alt={project.name}
@@ -229,7 +210,6 @@ const ProjectContent = () => {
         <div className="container">
           <div className="flex items-center justify-between gap-2 border-b border-black pb-7 mb-12">
             <h2>Technologies Used</h2>
-            <p className="text-xl text-primary">( {project.skills.length} )</p>
           </div>
 
           <div className="flex flex-wrap gap-3 md:gap-4">

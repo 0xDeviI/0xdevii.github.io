@@ -1,40 +1,140 @@
 {
   "workData": [
     {
-      "image": "/images/work/work-img-1.jpg",
-      "title": "Mug Sticker Designing",
-      "client": "John Honnai",
-      "slug": "mug-sticker-designing"
+      "id": 0,
+      "image": "/images/work/yadbarg.png",
+      "title": "YadBarg",
+      "client": "YadBarg",
+      "url": "",
+      "gallery": [
+        {
+          "src": "/images/work/geekub-1.jpg",
+          "alt": "GeekHub Dashboard"
+        },
+        {
+          "src": "/images/work/geekub-2.jpg",
+          "alt": "GeekHub Course View"
+        },
+        {
+          "src": "/images/work/geekub-3.jpg",
+          "alt": "GeekHub Player"
+        }
+      ],
+      "skills": [
+        "React",
+        "TypeScript",
+        "Next.js",
+        "Node.js",
+        "MongoDB",
+        "Docker",
+        "AWS"
+      ],
+      "blocks": [
+        {
+          "type": "header",
+          "content": "Project Overview",
+          "level": 2
+        },
+        {
+          "type": "paragraph",
+          "content": "YadBarg is a cross-platform startup revolutionizing the way users manage notes and tasks through the power of artificial intelligence. The platform combines cloud-based storage with intelligent features that help users write better, organize their thoughts, and collaborate seamlessly with others. YadBarg's mission is to keep productivity simple while leveraging AI to automate repetitive tasks and enhance writing quality."
+        },
+        {
+          "type": "header",
+          "content": "AI-Powered Features",
+          "level": 2
+        },
+        {
+          "type": "paragraph",
+          "content": "YadBarg harnesses the power of AI to provide users with a suite of intelligent tools. Users can instantly translate their saved notes into 17 different world languages, breaking down language barriers and enabling global collaboration. The platform's AI can summarize lengthy texts into concise overviews, helping users quickly grasp key information without reading through entire documents. Additionally, users can chat with their notes, asking questions and receiving intelligent responses based on the content they've stored."
+        },
+        {
+          "type": "image",
+          "src": "/images/work/yadbarg-ai-features.jpg",
+          "alt": "YadBarg AI Translation and Summarization Features"
+        },
+        {
+          "type": "header",
+          "content": "Smart Writing Assistance",
+          "level": 2
+        },
+        {
+          "type": "paragraph",
+          "content": "The platform provides advanced writing assistance that goes beyond basic spell-checking. Users can change the tone of their writings with a single click, adapting their content for different audiences or contexts - whether they need a professional tone for business communications, a casual tone for personal notes, or anything in between. This intelligent writing assistant helps users communicate more effectively while maintaining their authentic voice."
+        },
+        {
+          "type": "image",
+          "src": "/images/work/yadbarg-writing-assistant.jpg",
+          "alt": "YadBarg Tone Change and Writing Enhancement Interface"
+        },
+        {
+          "type": "header",
+          "content": "Collaborative Workspaces",
+          "level": 2
+        },
+        {
+          "type": "paragraph",
+          "content": "YadBarg enables seamless collaboration through shared workspaces where users can work together in real-time. Whether collaborating with friends on a group project, coordinating with team members on business initiatives, or managing organizational knowledge, YadBarg provides all the tools needed for effective teamwork. Users can create workspaces, invite members, assign tasks, and share notes - all within a secure, cloud-based environment."
+        },
+        {
+          "type": "image",
+          "src": "/images/work/yadbarg-collaboration.jpg",
+          "alt": "YadBarg Shared Workspace and Team Collaboration"
+        },
+        {
+          "type": "header",
+          "content": "Task Management System",
+          "level": 2
+        },
+        {
+          "type": "paragraph",
+          "content": "YadBarg's intelligent task management system helps users stay organized and productive. The platform leverages AI to prioritize tasks, suggest deadlines, and provide smart reminders. Users can create, assign, and track tasks within their workspaces, with AI-powered insights helping them optimize their workflow and achieve their goals more efficiently."
+        },
+        {
+          "type": "header",
+          "content": "Cross-Platform Availability",
+          "level": 2
+        },
+        {
+          "type": "paragraph",
+          "content": "YadBarg is designed to work seamlessly across all devices and platforms. Whether users are accessing their notes from a desktop computer, tablet, or smartphone, they'll have a consistent and responsive experience. The cloud-based architecture ensures that all content is automatically synchronized, so users can pick up exactly where they left off, regardless of which device they're using."
+        },
+        {
+          "type": "image",
+          "src": "/images/work/yadbarg-cross-platform.jpg",
+          "alt": "YadBarg Cross-Platform Mobile and Desktop Experience"
+        }
+      ]
     },
     {
-      "image": "/images/work/work-img-2.jpg",
-      "title": "Mobile App Design",
-      "client": "John Honnai",
-      "slug": "mobile-app-design"
+      "id": 1,
+      "image": "/images/work/esms.png",
+      "title": "eSMS",
+      "client": "Personal"
     },
     {
-      "image": "/images/work/work-img-3.jpg",
-      "title": "Fashion Website Template",
-      "client": "John Honnai",
-      "slug": "fashion-website-template"
+      "id": 2,
+      "image": "/images/work/azmoonyar.png",
+      "title": "AzmoonYar",
+      "client": "AzmoonYar"
     },
     {
-      "image": "/images/work/work-img-4.jpg",
-      "title": "Book Cover Design",
-      "client": "John Honnai",
-      "slug": "book-cover-design"
+      "id": 3,
+      "image": "/images/work/geoNS.png",
+      "title": "geoNS (geo-locational netstat)",
+      "client": "Clever Devs Community"
     },
     {
-      "image": "/images/work/work-img-5.jpg",
-      "title": "Mobile App Design",
-      "client": "John Honnai",
-      "slug": "mobile-app-design"
+      "id": 4,
+      "image": "/images/work/sile.png",
+      "title": "Sile",
+      "client": "Personal"
     },
     {
-      "image": "/images/work/work-img-6.jpg",
-      "title": "Mug Sticker Designing",
-      "client": "John Honnai",
-      "slug": "mug-sticker-designing"
+      "id": 5,
+      "image": "/images/work/hooger.png",
+      "title": "Hooger",
+      "client": "Soltani III NUDET School"
     }
   ]
 }
