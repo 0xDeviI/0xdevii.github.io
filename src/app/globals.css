@@ -21,7 +21,7 @@ button::before {
   height: 0%;
   background-color: #FE4300; 
   transition: height 0.3s ease;
-  z-index: 0;
+  z-index: -1;
 }
 
 button:hover::before {

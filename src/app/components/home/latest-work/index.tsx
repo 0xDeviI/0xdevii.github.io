@@ -28,7 +28,7 @@ const LatestWork = () => {
         <div className="container">
           <div className="py-16 xl:py-32 ">
             <div className="flex items-center justify-between gap-2 border-b border-black pb-7 mb-9 md:mb-16">
-              <h2>Latest Works</h2>
+              <h2 id="latest-work">Latest Works</h2>
               <p className="text-xl text-orange-500">( 06 )</p>
             </div>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-x-6 gap-y-6 xl:gap-y-12">
@@ -47,9 +47,9 @@ const LatestWork = () => {
                         className="rounded-lg w-full h-full object-cover"
                       />
                       <Link
-                        onClick={(e) => e.preventDefault()}
-                        href={``}
-                        // href={`/project?id=${value.id}`}
+                        // href={``}
+                        target="_blank" 
+                        href={`/project?id=${value.id}`}
                         className="absolute top-0 left-0 backdrop-blur-xs bg-primary/15 w-full h-full hidden group-hover:flex rounded-lg"
                       >
                         <span className="flex justify-center items-center p-5 w-full">
@@ -80,15 +80,17 @@ const LatestWork = () => {
                     </div>
                     <div className="flex flex-col gap-0 xl:gap-2">
                       <div className="flex items-center justify-between">
-                        <Link 
-                        href={''}
-                        // href={`/project?id=${value.id || index}`}
+                        <Link
+                        target="_blank" 
+                        // href={''}
+                        href={`/project?id=${value.id || index}`}
                         >
                           <h5>{value?.title}</h5>
                         </Link>
                         <Link 
-                        href={``}
-                        // href={`/project?id=${value.id || index}`}
+                        target="_blank" 
+                        // href={``}
+                        href={`/project?id=${value.id || index}`}
                         >
                           <Image
                             src={getImgPath("/images/icon/right-arrow-icon.svg")}

@@ -5,29 +5,92 @@
       "image": "/images/work/yadbarg.png",
       "title": "YadBarg",
       "client": "YadBarg",
-      "url": "",
+      "url": "https://yadbrg.ir",
       "gallery": [
         {
-          "src": "/images/work/geekub-1.jpg",
-          "alt": "GeekHub Dashboard"
+          "src": "/images/work/yadbarg/landing-hero.png",
+          "alt": "Landing Page - Hero Section"
         },
         {
-          "src": "/images/work/geekub-2.jpg",
-          "alt": "GeekHub Course View"
+          "src": "/images/work/yadbarg/landing-feat.png",
+          "alt": "Landing Page - Features Section"
         },
         {
-          "src": "/images/work/geekub-3.jpg",
-          "alt": "GeekHub Player"
+          "src": "/images/work/yadbarg/landing-payg.png",
+          "alt": "Landing Page - Payment Method Section"
+        },
+        {
+          "src": "/images/work/yadbarg/landing-pricinh.png",
+          "alt": "Landing Page - Pricing Section"
+        },
+        {
+          "src": "/images/work/yadbarg/register.png",
+          "alt": "Signup Page"
+        },
+        {
+          "src": "/images/work/yadbarg/login.png",
+          "alt": "Signin Page"
+        },
+        {
+          "src": "/images/work/yadbarg/dashboard.png",
+          "alt": "Dashboard"
+        },
+        {
+          "src": "/images/work/yadbarg/calendar.png",
+          "alt": "Calendar"
+        },
+        {
+          "src": "/images/work/yadbarg/calendar-day.png",
+          "alt": "Calendar - Day View"
+        },
+        {
+          "src": "/images/work/yadbarg/mem-capsule.png",
+          "alt": "Memory Capsule"
+        },
+        {
+          "src": "/images/work/yadbarg/account.png",
+          "alt": "Account Balance"
+        },
+        {
+          "src": "/images/work/yadbarg/my-subs.png",
+          "alt": "User's Subscriptions"
+        },
+        {
+          "src": "/images/work/yadbarg/sub-plans.png",
+          "alt": "Marketplace"
+        },
+        {
+          "src": "/images/work/yadbarg/sub-plans-table.png",
+          "alt": "Subscription Plans Comparison"
+        },
+        {
+          "src": "/images/work/yadbarg/sub-plan-checkout.png",
+          "alt": "Subscription Plan Checkout"
+        },
+        {
+          "src": "/images/work/yadbarg/note.png",
+          "alt": "Note Editor"
+        },
+        {
+          "src": "/images/work/yadbarg/note-2.png",
+          "alt": "Note Editor Options"
+        },
+        {
+          "src": "/images/work/yadbarg/yadbarg-yar.png",
+          "alt": "YadBarg Yar (AI assitant with access to notes and tasks)"
+        },
+        {
+          "src": "/images/work/yadbarg/workspaces.png",
+          "alt": "Workspaces"
         }
       ],
       "skills": [
-        "React",
-        "TypeScript",
-        "Next.js",
-        "Node.js",
-        "MongoDB",
-        "Docker",
-        "AWS"
+        "ReactJS",
+        "NextJS",
+        "ShadCN",
+        "Laravel",
+        "MySQL",
+        "Docker"
       ],
       "blocks": [
         {
@@ -50,7 +113,7 @@
         },
         {
           "type": "image",
-          "src": "/images/work/yadbarg-ai-features.jpg",
+          "src": "/images/work/yadbarg/note-2.png",
           "alt": "YadBarg AI Translation and Summarization Features"
         },
         {
@@ -64,7 +127,7 @@
         },
         {
           "type": "image",
-          "src": "/images/work/yadbarg-writing-assistant.jpg",
+          "src": "/images/work/yadbarg/note.png",
           "alt": "YadBarg Tone Change and Writing Enhancement Interface"
         },
         {
@@ -78,7 +141,7 @@
         },
         {
           "type": "image",
-          "src": "/images/work/yadbarg-collaboration.jpg",
+          "src": "/images/work/yadbarg/workspaces.png",
           "alt": "YadBarg Shared Workspace and Team Collaboration"
         },
         {
@@ -101,7 +164,7 @@
         },
         {
           "type": "image",
-          "src": "/images/work/yadbarg-cross-platform.jpg",
+          "src": "/images/work/yadbarg/login.png",
           "alt": "YadBarg Cross-Platform Mobile and Desktop Experience"
         }
       ]
@@ -110,31 +173,398 @@
       "id": 1,
       "image": "/images/work/esms.png",
       "title": "eSMS",
-      "client": "Personal"
+      "client": "Personal",
+      "url": "https://github.com/0xDeviI/eSMS",
+      "skills": [
+        "Android",
+        "Java",
+        "AES Encryption",
+        "Key Exchange",
+        "Background Services",
+        "SMS Handling",
+        "Contacts Handling"
+      ],
+      "gallery": [
+        {
+          "src": "/images/work/esms/secret-chat.jpeg",
+          "alt": "Secret Chat Section"
+        },
+        {
+          "src": "/images/work/esms/lockscreen.jpeg",
+          "alt": "Lockscreen Section"
+        },
+        {
+          "src": "/images/work/esms/key-settings.jpeg",
+          "alt": "Local Key Management Section"
+        },
+        {
+          "src": "/images/work/esms/chats.jpeg",
+          "alt": "Chats Section"
+        },
+        {
+          "src": "/images/work/esms/about.jpeg",
+          "alt": "About Slide"
+        }
+      ],
+      "blocks": [
+        {
+          "type": "header",
+          "content": "Project Overview",
+          "level": 2
+        },
+        {
+          "type": "paragraph",
+          "content": "eSMS is a specialized Android application created to enable secure and encrypted communication over SMS during internet shutdowns. The project was born out of the repeated restrictions on internet access imposed on Iranian citizens, particularly during times of civil unrest and public demonstrations. Its core mission is to provide a minimal yet critical communication channel when conventional internet-based messaging platforms are unavailable or blocked, thereby preserving the ability to communicate freely under restrictive conditions."
+        },
+        {
+          "type": "header",
+          "content": "The Challenge: Communication During Internet Blackouts",
+          "level": 2
+        },
+        {
+          "type": "paragraph",
+          "content": "During periods of widespread internet censorship, basic communication becomes a significant challenge. Sharing information, coordinating efforts, or simply checking on the safety of loved ones is severely hampered. eSMS was designed to address this by leveraging the existing, often still-operational SMS infrastructure, transforming standard text messaging into a secure and private communication channel that does not rely on an active internet connection."
+        },
+        {
+          "type": "header",
+          "content": "How eSMS Works",
+          "level": 2
+        },
+        {
+          "type": "paragraph",
+          "content": "The application operates on a straightforward principle: encrypt a message locally on the user's device, then send the encrypted payload as a standard SMS. All encryption and decryption processes use the robust AES-256 algorithm, ensuring that plaintext message content is never transmitted over the network. When a recipient with eSMS installed receives an encrypted SMS, they are notified and must enter the correct password to decrypt and read its contents on their own device."
+        },
+        {
+          "type": "image",
+          "src": "/images/work/esms/secret-chat.jpeg",
+          "alt": "eSMS Secret Chat Interface"
+        },
+        {
+          "type": "header",
+          "content": "Password Management and Security",
+          "level": 2
+        },
+        {
+          "type": "paragraph",
+          "content": "In the absence of internet access, securely sharing encryption keys is inherently difficult. Passwords for eSMS must be exchanged in advance or shared with trusted individuals through secure, offline means. The application is therefore intended for use within small, trusted groups rather than for open or public communication. Users can manage their local keys and passwords through a dedicated interface, keeping control of their security in their own hands."
+        },
+        {
+          "type": "image",
+          "src": "/images/work/esms/key-settings.jpeg",
+          "alt": "eSMS Local Key Management Settings"
+        },
+        {
+          "type": "header",
+          "content": "Intended Use and Limitations",
+          "level": 2
+        },
+        {
+          "type": "paragraph",
+          "content": "eSMS is purpose-built for scenarios where coordinating or exchanging sensitive information—such as locations, updates, or safety checks—is crucial, yet internet access is restricted. While the message content is encrypted and secure, users must be aware that SMS metadata (like sender, recipient, and timestamp) and traffic patterns remain observable. The encrypted messages are transmitted as Base64-encoded data, which may be distinguishable from ordinary SMS traffic. Consequently, eSMS should be used cautiously and only when necessary, with a clear understanding of the associated risks."
+        },
+        {
+          "type": "header",
+          "content": "Technical Stack",
+          "level": 2
+        },
+        {
+          "type": "paragraph",
+          "content": "The application is built natively for Android using Java, ensuring compatibility and performance on a wide range of devices. It leverages AES encryption for securing message content and implements background services to handle SMS reception and notification. A key aspect of the application is its ability to interact with system-level APIs for contact management, enabling users to easily select recipients for their encrypted messages."
+        },
+        {
+          "type": "image",
+          "src": "/images/work/esms/chats.jpeg",
+          "alt": "eSMS Chats Interface"
+        },
+        {
+          "type": "header",
+          "content": "Project Vision and Impact",
+          "level": 2
+        },
+        {
+          "type": "paragraph",
+          "content": "eSMS represents a direct technical and ethical response to censorship and enforced disconnection. It is a practical tool developed based on firsthand accounts of the challenges faced during internet blackouts, aiming to provide a lifeline for communication. The project stands as a small but meaningful contribution toward preserving free communication, with a vision of supporting a future where such constraints no longer exist."
+        }
+      ]
     },
     {
       "id": 2,
       "image": "/images/work/azmoonyar.png",
       "title": "AzmoonYar",
-      "client": "AzmoonYar"
+      "client": "AzmoonYar",
+      "skills": [
+        "PHP",
+        "JavaScript",
+        "MySQL",
+        "C#",
+        "Java",
+        "Android Development"
+      ],
+      "gallery": [],
+      "blocks": [
+        {
+          "type": "header",
+          "content": "Project Overview",
+          "level": 2
+        },
+        {
+          "type": "paragraph",
+          "content": "AzmoonYar is a comprehensive, cross-platform online exam creation and participation system designed for educational institutions. The platform provides a complete solution for teachers to create, manage, and grade exams, while enabling students to take assessments across multiple devices. With native applications for web, Windows, and Android, AzmoonYar ensures accessibility for both teachers and students regardless of their preferred platform or device."
+        },
+        {
+          "type": "header",
+          "content": "Teacher-Focused Exam Creation",
+          "level": 2
+        },
+        {
+          "type": "paragraph",
+          "content": "The platform empowers teachers with a flexible exam creation system that supports virtually any question type imaginable. Educators can design exams featuring short answer questions, long answer/essay questions, and multiple-choice test questions. This versatility allows teachers to create comprehensive assessments that accurately evaluate student knowledge and understanding across different subjects and learning objectives."
+        },
+        {
+          "type": "header",
+          "content": "Multi-Platform Student Experience",
+          "level": 2
+        },
+        {
+          "type": "paragraph",
+          "content": "Students can attend exams from any device, making the platform highly accessible and convenient. The web interface provides a browser-based experience perfect for school computer labs or home computers, while the Windows desktop application offers a native experience for users who prefer dedicated software. Android mobile applications allow students to take exams on their smartphones or tablets, enabling learning on the go and accommodating students who may not have access to traditional computers."
+        },
+        {
+          "type": "header",
+          "content": "Teacher Administrative Tools",
+          "level": 2
+        },
+        {
+          "type": "paragraph",
+          "content": "Beyond exam creation, AzmoonYar provides teachers with comprehensive administrative tools. Educators can manage multiple classes, track student participation, and analyze exam results. The system supports grading and feedback, allowing teachers to provide meaningful assessments to their students. The cross-platform nature of the administrative tools means teachers can manage their exams and review results from any device, whether they're in the classroom, at home, or on the move."
+        },
+        {
+          "type": "header",
+          "content": "Technical Architecture",
+          "level": 2
+        },
+        {
+          "type": "paragraph",
+          "content": "AzmoonYar employs a robust technical architecture to deliver a seamless experience across all platforms. The backend is built using PHP and MySQL, providing a reliable and scalable server infrastructure for exam data, user management, and real-time synchronization. The web client leverages JavaScript for interactive and responsive user interfaces, while Windows clients are developed using C#, and Android mobile applications are built with Java, ensuring optimal performance and native experiences on each platform."
+        },
+        {
+          "type": "header",
+          "content": "Real-Time Synchronization and Reliability",
+          "level": 2
+        },
+        {
+          "type": "paragraph",
+          "content": "The platform ensures that all exam data, submissions, and results are synchronized in real-time across devices. Teachers can monitor exam progress, manage ongoing exams, and view immediate results. For students, the system ensures that answers are securely submitted and saved, preventing data loss even in the event of connectivity issues. This reliability is crucial for high-stakes academic assessments where every answer matters."
+        },
+        {
+          "type": "header",
+          "content": "Impact and Educational Benefits",
+          "level": 2
+        },
+        {
+          "type": "paragraph",
+          "content": "AzmoonYar represents a significant advancement in educational technology, bridging the gap between traditional paper-based exams and modern digital learning environments. By providing a unified platform that works across all devices, the system reduces administrative overhead for teachers, improves accessibility for students, and enables more efficient and effective assessment processes. The platform supports both traditional in-classroom exams and remote learning scenarios, making it a versatile tool for modern education."
+        }
+      ]
     },
     {
       "id": 3,
       "image": "/images/work/geoNS.png",
       "title": "geoNS (geo-locational netstat)",
-      "client": "Clever Devs Community"
+      "client": "Clever Devs Community",
+      "url": "https://github.com/0xDeviI/geoNS-core",
+      "skills": [
+        "C Programming",
+        "System Programming",
+        "Decentralization",
+        "HTTP",
+        "RFC Implementation"
+      ],
+      "gallery": [],
+      "blocks": [
+        {
+          "type": "header",
+          "content": "Project Overview",
+          "level": 2
+        },
+        {
+          "type": "paragraph",
+          "content": "geoNS (Geolocational Net Stat) is a decentralized service designed to monitor and provide insights into internet quality. This repository contains the core C implementation, which is responsible for handling decentralized operations, log collection, and providing an API for the broader geoNS ecosystem."
+        },
+        {
+          "type": "header",
+          "content": "The Philosophy: Decentralized Internet Health Monitoring",
+          "level": 2
+        },
+        {
+          "type": "paragraph",
+          "content": "The project is built on the principle that understanding internet connectivity should not depend on a single point of failure or control. By creating a decentralized service, geoNS aims to provide a resilient and transparent view of network performance from multiple vantage points, making it harder to obscure or manipulate data about internet health and censorship."
+        },
+        {
+          "type": "header",
+          "content": "Core Responsibilities",
+          "level": 2
+        },
+        {
+          "type": "paragraph",
+          "content": "The geoNS-core service acts as the backbone of the system. It manages the decentralized collection of network statistics, securely stores this data, and provides a structured API for querying and analysis. This core is built for efficiency and reliability, capable of running in various environments."
+        },
+        {
+          "type": "header",
+          "content": "Technical Implementation",
+          "level": 2
+        },
+        {
+          "type": "paragraph",
+          "content": "The core is written in C for performance and low-level system access, with some C++ components. It uses SQLite for lightweight, embedded data storage, OpenSSL for cryptographic functions, and libcurl for HTTP operations. The project is containerized with Docker for easy deployment and includes a comprehensive build system using Make."
+        }
+      ]
     },
     {
       "id": 4,
       "image": "/images/work/sile.png",
       "title": "Sile",
-      "client": "Personal"
+      "client": "Personal",
+      "url": "https://github.com/0xDeviI/sile",
+      "skills": [
+        "PHP",
+        "PHP MVC",
+        "JavaScript"
+      ],
+      "gallery": [
+        {
+          "src": "/images/work/sile/account.png",
+          "alt": "Account Settings"
+        },
+        {
+          "src": "/images/work/sile/dashboard.png",
+          "alt": "Dashboard Page"
+        },
+        {
+          "src": "/images/work/sile/login.png",
+          "alt": "Signin Page"
+        },
+        {
+          "src": "/images/work/sile/register.png",
+          "alt": "Signup Page"
+        },
+        {
+          "src": "/images/work/sile/protected-file.png",
+          "alt": "Protected File URL Requires Password"
+        }
+      ],
+      "blocks": [
+        {
+          "type": "header",
+          "content": "Project Overview",
+          "level": 2
+        },
+        {
+          "type": "paragraph",
+          "content": "Sile is a simple, minimal, and clean file upload solution built with PHP. Designed for lightweight servers, it provides an easy-to-install platform for managing file uploads with features like secure authentication, customizable rules, and password-protected files."
+        },
+        {
+          "type": "header",
+          "content": "Custom Framework Foundation",
+          "level": 2
+        },
+        {
+          "type": "paragraph",
+          "content": "Sile is built upon the Signite framework, a custom MVC (Model-View-Controller) framework developed for this project. Signite provides a robust foundation with features including static routing, dynamic routing, and middleware support, demonstrating a deep understanding of web application architecture."
+        },
+        {
+          "type": "header",
+          "content": "Core Features",
+          "level": 2
+        },
+        {
+          "type": "paragraph",
+          "content": "The platform includes a secure login and registration system, powerful and customizable file upload rules, the ability to protect individual files with passwords, and support for file group operations. This makes Sile suitable for both personal use and collaborative environments."
+        },
+        {
+          "type": "header",
+          "content": "Technical Implementation",
+          "level": 2
+        },
+        {
+          "type": "paragraph",
+          "content": "The application is primarily written in PHP for backend, with a frontend built using Pure JavaScript. It uses jQuery for frontend interactivity and features a ready-to-use CSS theme inspired by Discord. The project is open-source under the MIT license."
+        }
+      ]
     },
     {
       "id": 5,
       "image": "/images/work/hooger.png",
       "title": "Hooger",
-      "client": "Soltani III NUDET School"
+      "client": "Soltani III NUDET School",
+      "url": "https://github.com/0xDeviI/hooger-crypto-coin-android",
+      "skills": [
+        "Android Development",
+        "Python",
+        "Flask",
+        "Blockchain",
+        "Cryptography"
+      ],
+      "gallery": [
+        {
+          "src": "/images/work/hooger/dashboard.png",
+          "alt": "Wallet"
+        },
+        {
+          "src": "/images/work/hooger/splash.png",
+          "alt": "Splash Screen"
+        },
+        {
+          "src": "/images/work/hooger/transit.png",
+          "alt": "Exchanging into Toman and From Toman"
+        },
+        {
+          "src": "/images/work/hooger/private-public-key-setup.png",
+          "alt": "Setting up Private and Public key pairs for the first time"
+        },
+        {
+          "src": "/images/work/hooger/transit-menus.png",
+          "alt": "Exchange Menus"
+        }
+      ],
+      "blocks": [
+        {
+          "type": "header",
+          "content": "Project Overview",
+          "level": 2
+        },
+        {
+          "type": "paragraph",
+          "content": "Hooger is a simple cryptocurrency and blockchain demonstration project, created for the 14th Hooger event held at Soltani III Nodet School in Karaj. The project was developed to introduce participants to the concepts of digital assets and blockchain technology through a practical, hands-on experience."
+        },
+        {
+          "type": "header",
+          "content": "Project Context",
+          "level": 2
+        },
+        {
+          "type": "paragraph",
+          "content": "Created around 5 years ago, Hooger was designed as an educational tool during a time when interest in cryptocurrencies was growing. The project simulates a functional crypto ecosystem, allowing users to manage and transact with custom Hooger tokens, providing a foundational understanding of how blockchain-based assets work."
+        },
+        {
+          "type": "header",
+          "content": "Technical Implementation",
+          "level": 2
+        },
+        {
+          "type": "paragraph",
+          "content": "The project consists of two main components: a backend server built with Python and Flask to handle blockchain operations, and an Android application developed in Java to serve as the user's wallet interface. Users can set up their private and public key pairs, view their token balance, and perform exchange transactions to and from Toman, the local fiat currency representation."
+        },
+        {
+          "type": "header",
+          "content": "Educational Purpose and Impact",
+          "level": 2
+        },
+        {
+          "type": "paragraph",
+          "content": "By providing a simplified but complete cryptocurrency system, Hooger served as a valuable learning platform for event attendees. It demonstrated the core principles of blockchain technology, including the importance of key pairs, the mechanics of digital transactions, and the concept of a decentralized ledger, all within a controlled and understandable environment."
+        }
+      ]
     }
   ]
 }

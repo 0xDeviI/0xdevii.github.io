@@ -71,7 +71,7 @@ const Contact = () => {
       <div className="container">
         <div className="pt-16 md:pt-32 pb-20">
           <div className="flex items-center justify-between gap-2 border-b border-black pb-7 mb-9 md:mb-16">
-            <h2>Contact Me</h2>
+            <h2 id="contact-me">Contact Me</h2>
             <p className="text-xl text-orange-500">( 07 )</p>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
