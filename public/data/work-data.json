@@ -289,6 +289,122 @@
     },
     {
       "id": 2,
+      "image": "/images/work/sharjpay.png",
+      "title": "Sharjpay",
+      "client": "Sharjpay Corp.",
+      "skills": [
+        "Android",
+        "Java",
+        "PHP",
+        "MySQL",
+        "JavaScript"
+      ],
+      "gallery": [
+        {
+          "src": "/images/work/sharjpay/poll.jpg",
+          "alt": "Public polling allows managers to launch a survey and share the results with everyone in seconds."
+        },
+        {
+          "src": "/images/work/sharjpay/otp.jpg",
+          "alt": "OTP-based authentication system"
+        },
+        {
+          "src": "/images/work/sharjpay/transaction-history.jpg",
+          "alt": "Transparent transaction history to all members"
+        },
+        {
+          "src": "/images/work/sharjpay/unit-financial-management.jpg",
+          "alt": "Managing costs for each unit in a building"
+        },
+        {
+          "src": "/images/work/sharjpay/dashboard.jpg",
+          "alt": "Dashboard Page"
+        }
+      ],
+      "blocks": [
+        {
+          "type": "header",
+          "content": "Project Overview",
+          "level": 2
+        },
+        {
+          "type": "paragraph",
+          "content": "Sharjpay is a comprehensive building management system developed as an Android application. The platform enables building managers to efficiently oversee residential complexes by providing tools for cost management, communication, and resident engagement. As both the Android and backend developer, I built the entire system from the ground up, ensuring seamless integration between the mobile frontend and the PHP backend infrastructure."
+        },
+        {
+          "type": "header",
+          "content": "Building Configuration and Management",
+          "level": 2
+        },
+        {
+          "type": "paragraph",
+          "content": "Managers can easily set up and configure their buildings within the application. The system supports defining building names, specifying the number of blocks, and adding units per block with resident names. This flexible configuration allows Sharjpay to adapt to buildings of any size, from small apartment complexes to large residential towers."
+        },
+        {
+          "type": "image",
+          "src": "/images/work/sharjpay/unit-financial-management.jpg",
+          "alt": "Managing costs for each unit in a building"
+        },
+        {
+          "type": "header",
+          "content": "Financial Management",
+          "level": 2
+        },
+        {
+          "type": "paragraph",
+          "content": "A core feature of Sharjpay is its robust financial management system. Building managers can define and track costs for each unit, manage shared expenses, and maintain transparent financial records. The platform provides a clear transaction history that is accessible to all members, fostering trust and accountability within the building community."
+        },
+        {
+          "type": "image",
+          "src": "/images/work/sharjpay/transaction-history.jpg",
+          "alt": "Transparent transaction history to all members"
+        },
+        {
+          "type": "header",
+          "content": "Communication and Engagement Tools",
+          "level": 2
+        },
+        {
+          "type": "paragraph",
+          "content": "The application facilitates communication between building management and residents through integrated chat functionality. Additionally, Sharjpay includes a public polling system that allows managers to launch surveys and share results instantly. This feature enables quick decision-making and ensures all residents have a voice in building matters."
+        },
+        {
+          "type": "image",
+          "src": "/images/work/sharjpay/poll.jpg",
+          "alt": "Public polling allows managers to launch a survey and share the results with everyone in seconds"
+        },
+        {
+          "type": "header",
+          "content": "Secure Authentication and Access Control",
+          "level": 2
+        },
+        {
+          "type": "paragraph",
+          "content": "Sharjpay implements an OTP-based authentication system to ensure secure access for all users. This two-factor verification method adds an extra layer of security, protecting sensitive building management data and resident information. The system also includes role-based access control, ensuring that managers and residents have appropriate permissions."
+        },
+        {
+          "type": "image",
+          "src": "/images/work/sharjpay/otp.jpg",
+          "alt": "OTP-based authentication system"
+        },
+        {
+          "type": "header",
+          "content": "Technical Architecture",
+          "level": 2
+        },
+        {
+          "type": "paragraph",
+          "content": "The Android client is built using Java and XML, providing a native and responsive user experience. The backend is developed with pure PHP and MySQL, handling all business logic, data persistence, and API services. A dashboard provides managers with a comprehensive overview of building activities and financial status."
+        },
+        {
+          "type": "image",
+          "src": "/images/work/sharjpay/dashboard.jpg",
+          "alt": "Dashboard Page"
+        }
+      ]
+    },
+    {
+      "id": 3,
       "image": "/images/work/azmoonyar.png",
       "title": "AzmoonYar",
       "client": "AzmoonYar",
@@ -368,7 +484,7 @@
       ]
     },
     {
-      "id": 3,
+      "id": 4,
       "image": "/images/work/geoNS.png",
       "title": "geoNS (geo-locational netstat)",
       "client": "Clever Devs Community",
@@ -421,7 +537,7 @@
       ]
     },
     {
-      "id": 4,
+      "id": 5,
       "image": "/images/work/sile.png",
       "title": "Sile",
       "client": "Personal",
@@ -493,7 +609,7 @@
       ]
     },
     {
-      "id": 5,
+      "id": 6,
       "image": "/images/work/hooger.png",
       "title": "Hooger",
       "client": "Soltani III NUDET School",
